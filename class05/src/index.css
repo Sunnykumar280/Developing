@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+html,
+body{
+  height:100%;
+  width: 100%;
+  margin-top: 20px;
+  color:aliceblue;
+}
+.box{
+  height:200px;
+width: 200px;
+background-color: green;
+margin-bottom:10px;
+font-size: 100px;
+
+}
+
+/* @import "tailwindcss"; */
+
+button{
+  background-color: blueviolet;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: none;
+  color: black;
+  margin-top: 12px;
+  cursor: pointer;
+}
+button:active {
+  scale: 0.95;
+}
+.wash{
+  width : 300px;
+  padding : 20px 40px;
+ font-size: 30px;
+ height: 200px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  background: conic-gradient(red, blue, yellow,orange, lightseagreen,pink,brown);
+
+margin-top: 100px;
+border-radius : 10px;
+margin-top: 100px;
+
+}
+
+
+/* .men{
+  width : fit-content;
+  padding : 20px 40px;
+ font-size: 30px;
+  font-weight: 600;
+  background-color: pink;
+color: lightseagreen;
+border-radius : 10px;
+margin-top: 20px;
+
+} */
+.parent{
+  padding : 20px;
+  height :100vh;
+  
+  
+  background-color: black;
+}
+.Male{
+  background-color: blue;
+    width : 300px;
+  padding : 20px 40px;
+ font-size: 30px;
+ height: 200px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+ 
+
+margin-top: 100px;
+border-radius : 10px;
+margin-top: 100px;
+}
+.Female{
+  background-color: rgb(66, 201, 17);
+    width : 300px;
+  padding : 20px 40px;
+ font-size: 30px;
+ height: 200px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+margin-top: 100px;
+border-radius : 10px;
+margin-top: 100px;
+}
+.LGBTQ{
+   width : 300px;
+  padding : 20px 40px;
+ font-size: 30px;
+ height: 200px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  background: conic-gradient(red, blue, yellow,orange, lightseagreen,pink,brown);
+
+margin-top: 100px;
+border-radius : 10px;
+margin-top: 100px;
+ 
+}
+h1{
+  background-color: brown;
+  width:fit-content;
+  margin-top: 20px;
+}

@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+
+h1{
+  font-size: 40px;
+  font-family: 600;
+  position: absolute;
+  top: 30vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+h2{
+  font-size: 40px;
+  font-family: 600;
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+
+.nav{
+display: flex;
+  gap: 20px;
+  text-decoration: underline;
+}
+
+.active{
+  color: red;
+  border-bottom: 2px solid red;
+}
+
+.non-active{
+color: white;
+}
+
+.sale{
+  background-color: #494948;
+  gap: 20px;
+  flex-wrap: nowrap;
+  display: flex;
+  padding: 29px;
+  margin-top: 50px;
+}
+
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: rebeccapurple;
+  bottom: 0%;
+  position: absolute;
+  width: 100%;
+}
+
+.footer button{
+  padding: 5px 10px;
+  background-color: seagreen;
+  border: none;
+  font-size: 10px;
+
+}
+
+.sale p{
+  flex-shrink: 0;
+  
+}
